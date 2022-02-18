@@ -3,6 +3,27 @@
   background-color: $color__background-footer;
   color: $color__font-footer;
   padding: 1rem;
+  &__menu {
+    // .site__menu__footer
+    &__ul {
+      // .site__menu__footer__ul
+      padding: 0;
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      .menu-item {
+        margin: 10px 5px;
+        a {
+          display: flex;
+          align-items: center;
+          padding: 3px;
+          svg {
+            color: rgb(44, 44, 44);
+          }
+        }
+      }
+    }
+  }
   .footer__titre,
   .footer__presentation,
   .footer__author {

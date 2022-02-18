@@ -1,4 +1,4 @@
-# Exerice #1 - 4W4 - Conception d'interface et développement Web
+# Lab4 - 4W4 - Conception d'interface et développement Web
 
 ### Auteur Jérôme Trottier
 

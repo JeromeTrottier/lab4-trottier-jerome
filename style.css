@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**
-Theme Name: Exercice 1 Trottier Jerome
+Theme Name: Lab4 Trottier Jerome
 Author : Jerome trottier
 Autor URI : githublink
 Description : Ce thème servira de base de développement pour l'
@@ -26,6 +26,26 @@ a:focus {
 }
 
 a:hover, a:active {
+  outline: 0;
+}
+
+.site__footer a {
+  color: red;
+}
+
+.site__footer a:visited {
+  color: blue;
+}
+
+.site__footer a:hover, .site__footer a:focus, .site__footer a:active {
+  color: #bdaa04;
+}
+
+.site__footer a:focus {
+  outline: thin dotted;
+}
+
+.site__footer a:hover, .site__footer a:active {
   outline: 0;
 }
 
@@ -506,6 +526,27 @@ html {
   background-color: #16b330;
   color: white;
   padding: 1rem;
+}
+
+.site__footer__menu__ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.site__footer__menu__ul .menu-item {
+  margin: 10px 5px;
+}
+
+.site__footer__menu__ul .menu-item a {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.site__footer__menu__ul .menu-item a svg {
+  color: #2c2c2c;
 }
 
 .site__footer .footer__titre,
