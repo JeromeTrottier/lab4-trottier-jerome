@@ -7,14 +7,17 @@
         <div class="animation__bloc">4</div>
         <div class="animation__bloc">5</div>
     </section>
-    <h2>front-page.php</h2>
-    <?php
-    if (have_posts()) :
-        while (have_posts()) :
-            the_post();
-            the_content();
-        endwhile;
-    endif;
-    ?>
+    <div class="main__frontpage">
+        <h2>front-page.php</h2>
+        <?php
+        if (have_posts()) :
+            while (have_posts()) :
+                the_post();
+                the_content();
+            endwhile;
+        endif;
+        ?>
+    </div>
+
 </main>
 <?php get_footer() ?>
