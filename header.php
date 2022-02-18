@@ -13,7 +13,7 @@
     <header class="site__header">
         <section class="site__header__titre">
             <h1>
-                <?php blogInfo('name') ?>
+                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             </h1>
             <h2>
                 <!-- <?php blogInfo('description') ?> -->

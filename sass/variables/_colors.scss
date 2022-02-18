@@ -1,20 +1,25 @@
 $color__background-body: rgb(255, 255, 255);
 $color__background-header: rgb(22, 179, 48);
-$color__background-barre: rgb(236, 255, 127);
+$color__background-barre: rgb(0, 225, 255);
 $color__background-main: rgb(174, 255, 127);
 $color__background-footer: rgb(22, 179, 48);
-$color__background-link: rgb(241, 149, 241);
-$color__background-link-hover: rgb(146, 88, 146);
+$color__background-link: rgb(63, 63, 63);
+$color__background-link-hover: rgb(41, 41, 41);
 
 //liens
-$color__link: rgb(0, 4, 255);
-$color__link-hover: rgb(4, 4, 189);
-$color__link-visited: rgb(61, 61, 90);
+$color__link: rgb(255, 255, 255);
+$color__link-hover: rgb(22, 179, 48);
+$color__link-visited: rgb(255, 255, 255);
 
 //liens footer
-$color__link__footer: rgb(255, 0, 0);
-$color__link__footer-hover: rgb(189, 170, 4);
-$color__link__footer-visited: rgb(0, 0, 255);
+$color__link__footer: white;
+$color__link__footer-hover: rgb(0, 225, 255);
+$color__link__footer-visited: white;
+
+//liens header
+$color__link__header: white;
+$color__link__header-hover: rgb(0, 225, 255);
+$color__link__header-visited: white;
 
 // Fonts
 $color__font-footer: white;

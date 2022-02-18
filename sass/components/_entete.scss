@@ -25,21 +25,20 @@
   }
   &__util {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     @media screen and (min-width: $largeur__media--tablette) {
-      width: 20%;
+      width: 50%;
     }
   }
 }
-// .icone {
-//   &__lien {
-//     svg {
-//     }
-//   }
-// }
+.icone {
+  display: flex;
+  flex-grow: 1;
+}
 .recherche {
+  flex-grow: 2;
   width: 100%;
   position: relative;
   ::placeholder {

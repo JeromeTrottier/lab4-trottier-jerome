@@ -30,4 +30,10 @@ function cidw_4w4_filtre_choix_menu($obj_menu)
     return $obj_menu;
 }
 
+function remove_admin_login_header()
+{
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
+add_action('get_header', 'remove_admin_login_header');
+
 add_filter("wp_nav_menu_objects", "cidw_4w4_filtre_choix_menu");

@@ -12,13 +12,22 @@
       list-style-type: none;
       justify-content: center;
       .menu-item {
+        width: 20%;
         margin: 10px 5px;
+        border-radius: 3px;
         a {
+          text-align: center;
           display: flex;
           align-items: center;
           padding: 3px;
           svg {
-            color: rgb(44, 44, 44);
+            color: white;
+          }
+        }
+
+        &:hover {
+          svg {
+            color: $color__background-barre;
           }
         }
       }

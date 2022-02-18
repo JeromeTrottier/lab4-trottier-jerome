@@ -1,8 +1,8 @@
 /**
 Theme Name: Lab4 Trottier Jerome
-Author : Jerome trottier
-Autor URI : githublink
-Description : Ce thème servira de base de développement pour l'
+Author : Jerome Trottier
+Author URI : https://github.com/JeromeTrottier/lab4-trottier-jerome
+Description : Ce thème servira de base de développement pour l'ensemble
 Version : 1.0.0
 Liscense : GNU General Public License v2 or later
 License URI : LICENSE
@@ -21,5 +21,6 @@ Text Domain : cidw-4w4
 
 //Components
 @import "components/components";
+@import "animations/animations";
 //Layout
 @import "layout/layout";
